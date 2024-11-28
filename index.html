@@ -1,0 +1,1687 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<!-- For IE -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<!-- For Resposive Device -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!-- For Window Tab Color -->
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#061948">
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#061948">
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#061948">
+		<title>Channel 5 Media</title>
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" sizes="56x56" href="images/fav-icon/c5media_sample.png">
+		<!-- Main style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<!-- responsive style sheet -->
+		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+		<!-- Fix Internet Explorer ______________________________________-->
+		<!--[if lt IE 9]>
+			<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="vendor/html5shiv.js"></script>
+			<script src="vendor/respond.js"></script>
+		<![endif]-->	
+
+
+		<style>
+
+.google-map-one {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .google-map-one {
+        display: none;
+    }
+}
+
+
+.top-features-slide .item .main-content {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fafafa; /* Background for clarity */
+}
+
+.top-features-slide .item:hover .main-content {
+    transform: translateY(-10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+.nav-tabs .nav-link {
+    border: 1px solid #155baa24;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    background: none;
+}
+
+
+			.newpara{
+				font-size: 16px;
+			}
+			.custom-h5{
+				font-size: 16px;
+			}
+
+			.new-head{
+
+				font-size: 20px;
+			}
+
+			#theme-main-banner div[data-src] {
+  background-size: cover; /* Ensures the image scales proportionally */
+  background-position: center; /* Centers the image */
+  height: 500px; /* Adjust the height as needed */
+  width: 100%; /* Adjust the width as needed */
+}
+
+
+.new-icon {
+    margin-top: 15px; /* Add spacing above the new icon */
+}
+
+.new-icon img {
+    width: 50px; /* Adjust the size of the new icon */
+    height: auto;
+    object-fit: contain; /* Maintain aspect ratio */
+}
+
+.new-icon a {
+    display: inline-block;
+}
+
+
+
+.theme-title-one.no-line h2::before {
+    content: none; /* This will hide the line */
+}
+
+
+
+
+.theme-button-two {
+  background-color: blue;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.theme-button-two:hover {
+  background-color: none !important;
+  color: black;
+  border: 2px solid blue;
+}
+
+
+
+
+
+.single-service {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* .single-service:hover {
+    background-color: #061948;
+    color: white;
+}
+
+.single-service:hover h5 a {
+    color: white !important; 
+    text-decoration: none;
+}
+
+.single-service:hover p {
+    color: white; 
+}
+
+.single-service:hover .read-more {
+    color: white !important; 
+}
+
+.single-service:hover i {
+    color: white;
+} */
+
+
+
+@media (max-width: 768px) {
+  .nav-item {
+    font-size: 12px; /* Reduce font size for small screens */
+  }
+  .single-service {
+    margin-bottom: 20px; /* Add spacing between services on smaller screens */
+  }
+  .text h5 {
+    font-size: 14px; /* Adjust font size for headings */
+  }
+  .text p {
+    font-size: 15px; /* Adjust font size for descriptions */
+  }
+
+  .custom-h5{
+				font-size: 14px !important;
+			}
+
+
+			#theme-main-banner div[data-src] {
+    height: 300px; /* Smaller height for mobile screens */
+  }
+}
+
+
+
+
+.nav-tabs {
+    margin-bottom: 20px;
+}
+
+
+
+.nav-link {
+    color: #000;
+    font-weight: bold;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+	
+    background: #155baa24;
+ 
+    margin-right: 5px;
+}
+/* .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+} */
+
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: #495057;
+    /* background-color: #fff; */
+    background-color: #155baa24;
+
+
+	
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+
+
+@media (min-width: 768px) {
+  #caseTabs {
+    display: flex;
+    justify-content: center; /* Centers the tabs horizontally */
+  }
+
+  .nav-tabs .nav-item {
+    margin: 0 10px; /* Adds some spacing between the tabs */
+  }
+}
+
+
+@media (max-width: 768px) {
+  .nav-tabs {
+    display: flex;
+    flex-direction: column;
+    gap: 7px; /* Adds spacing between the tabs */
+  }
+
+  .nav-tabs .nav-item {
+    width: 100%;
+  }
+
+  .nav-tabs .nav-link {
+    display: block;
+    width: 100%;
+    text-align: center;
+    margin: 5px 0; /* Adds top and bottom spacing */
+    padding: 10px; /* Increases padding for a button-like appearance */
+    border-radius: 5px; /* Adds rounded corners for a button-like effect */
+    color: #000; /* Text color */
+  }
+
+  .nav-tabs .nav-link.active {
+	/* background-color: #f8f9fa; Active tab background */
+    /* color: #fff; Active tab text color */
+    background-color: #f8f9fa; /* Active tab border color */
+	border: 1px solid #dee2e6; /* Border styling */
+  }
+}
+
+
+
+
+
+
+
+		</style>
+	</head>
+
+	<body>
+		<div class="main-page-wrapper">
+
+			<!-- ===================================================
+				Loading Transition
+			==================================================== -->
+			<div id="loader-wrapper">
+				<div id="loader"></div>
+			</div>
+
+			
+
+			<!-- 
+			=============================================
+				Theme Header Two
+			============================================== 
+			-->
+			<header class="header-two">
+				
+
+				<div class="theme-menu-wrapper">
+					<div class="container">
+						<div class="bg-wrapper clearfix">
+							<div class="logo float-left"><a href="index.html"><img src="images/logo/c5media_sample.png" style="height: 100%; width: 70px;" alt=""></a></div>
+							<!-- ============== Menu Warpper ================ -->
+					   		<div class="menu-wrapper float-left">
+					   			<nav id="mega-menu-holder" class="clearfix">
+								   <ul class="clearfix">
+									    <li style="font-size: 12px;" class="active"><a href="index.html">Home</a>
+									    	<!-- <ul class="dropdown">
+									        	<li><a href="index.html">Home version one</a></li>
+									        	<li><a href="index-2.html">Home version two</a></li>
+									      </ul> -->
+									    </li>
+									    <li style="font-size: 12px;"><a href="#aboutus">About us</a>
+									    	<!-- <ul class="dropdown">
+									    		<li><a href="about.html">About us</a></li>
+									    		<li><a href="team.html">Our team</a></li>
+									    		<li><a href="faq.html">Faq's</a></li>
+									    		<li><a href="404.html">404</a></li>
+									    		<li><a href="shop.html">Shop</a></li>
+									    		<li><a href="shop-details.html">Shop details</a></li>
+									            <li><a href="#">Third Level menu</a>
+									    			<ul>
+									    				<li><a href="#">Demo one</a></li>
+									    				<li><a href="#">Demo two</a></li>
+									    			</ul>
+									    		</li>
+									       </ul> -->
+									    </li>
+									    <li style="font-size: 12px;"><a href="#channels">Channels</a>
+									    	<!-- <ul class="dropdown">
+									        	<li><a href="service.html">Service Version one</a></li>
+									        	<li><a href="service-v2.html">Service version two</a></li>
+									        	<li><a href="service-details.html">Service Details</a></li>
+									       </ul> -->
+									    </li>
+									    <li style="font-size: 12px;"><a href="#featuredcontent">Featured Content</a>
+									    	<!-- <ul class="dropdown">
+									        	<li><a href="project.html">project</a></li>
+									        	<li><a href="project-details.html">Project details</a></li>
+									       </ul> -->
+									    </li>
+									    <!-- <li><a href="#">Blog</a>
+									    	<ul class="dropdown">
+									        	<li><a href="blog.html">Blog List</a></li>
+									        	<li><a href="blog-grid.html">Blog Grid</a></li>
+									        	<li><a href="blog-details.html">Blog details</a></li>
+									       </ul>
+									    </li> -->
+									    <li style="font-size: 12px;"><a href="#contactus">contact</a></li>
+								   </ul>
+								</nav> <!-- /#mega-menu-holder -->
+					   		</div> <!-- /.menu-wrapper -->
+					   		<div class="right-widget float-right">
+					   			<ul>
+					   				<!-- <li class="cart-icon">
+					   					<a href="#"><i class="flaticon-tool"></i> <span>2</span></a>
+					   				</li> -->
+					   				<li class="search-option">
+					   					<div class="dropdown">
+					   						<button type="button" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search" aria-hidden="true"></i></button>
+											<form action="#" class="dropdown-menu">
+												<input type="text" Placeholder="Enter Your Search">
+												<button><i class="fa fa-search"></i></button>
+											</form>
+					   					</div>
+					   				</li>
+					   			</ul>
+					   		</div> <!-- /.right-widget -->
+						</div> <!-- /.bg-wrapper -->
+					</div> <!-- /.container -->
+				</div> <!-- /.theme-menu-wrapper -->
+			</header> <!-- /.header-two -->
+
+			
+			<!-- 
+			=============================================
+				Theme Main Banner
+			============================================== 
+			-->
+			<div id="theme-main-banner" class="banner-one">
+				<!-- <div data-src="images/home/slide-5.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<p class="wow fadeInUp animated">The government they survive artical of fortune</p>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">HIGH-QUALITY MARKET <br> EXPERIENCES</h1>
+							<a href="about.html" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.39s">ABOUT US</a>
+						</div> 
+					</div> 
+				</div> -->
+				<div data-src="images/home/slide-1.jpg">
+					<div class="camera_caption">
+						<div class="container">
+							<p class="wow fadeInUp animated">Connecting You to the World Through Stories</p>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">CHANNEL 5 MEDIA </h1>
+							
+							<a href="https://www.youtube.com/@channel5tamil" target="_blank" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.39s">SUBSCRIBE</a>
+						</div> <!-- /.container -->
+					</div> <!-- /.camera_caption -->
+				</div>
+				<div data-src="images/home/slide-21.png">
+					<div class="camera_caption">
+						<div class="container">
+							<p class="wow fadeInUp animated">Connecting You to the World Through Stories</p>
+							<h1 class="wow fadeInUp animated" data-wow-delay="0.2s">CHANNEL 5 MEDIA </h1>
+							<a href="https://www.youtube.com/@Channel5NewsTamil" target="_blank" class="theme-button-one wow fadeInUp animated" data-wow-delay="0.39s">EXPLORE CHANNELS</a>
+						</div> 
+					</div> 
+				</div>
+			</div> <!-- /#theme-main-banner -->
+
+
+
+
+			<!-- 
+			=============================================
+				About Company
+			============================================== 
+			-->
+			<div class="about-compnay section-spacing" id="aboutus">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-6 col-12"><img src="images/home/1.jpg" alt=""></div>
+						<div class="col-lg-6 col-12">
+							<div class="text">
+								<div class="theme-title-one no-line">
+									<h2 style="text-align: left;">About Us</h2>
+									<p class="newpara" style="text-align: left;">We are a neutral and inclusive media outlet committed to presenting diverse perspectives on governance and public affairs. Our mission is to amplify the voices of the voiceless, ensuring that every story, no matter how overlooked, is heard.</p>
+									<p class="newpara" style="text-align: left;"> In today’s fast-paced world, our skilled journalists deliver thorough and engaging coverage, shedding light on issues that matter most. With a steadfast dedication to accuracy and inclusivity, we provide a platform for dialogue and understanding, fostering a more informed and connected society.</p>
+
+									<!-- <p class="newpara" style="text-align: left;"> In a world filled with noise, we stand for clarity and fairness. By focusing on impartial reporting, we create a trusted space where diverse ideas and perspectives can thrive. Our mission goes beyond storytelling; we aim to empower communities by shedding light on critical issues and sparking meaningful conversations.</p> -->
+									
+								</div> <!-- /.theme-title-one -->
+								<!-- <ul class="mission-goal clearfix">
+									<li>
+										<i class="icon flaticon-star"></i>
+										<h4>Vision</h4>
+									</li>
+									<li>
+										<i class="icon flaticon-medal"></i>
+										<h4>Missions</h4>
+									</li>
+									<li>
+										<i class="icon flaticon-target"></i>
+										<h4>Goals</h4>
+									</li>
+								</ul> /.mission-goal -->
+							</div> <!-- /.text -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.row -->
+				</div> <!-- /.container -->
+			</div> <!-- /.about-compnay -->
+			
+			
+			
+			
+			
+			<!-- 
+			=============================================
+				Top Feature
+			============================================== 
+			-->
+			<div class="top-feature section-spacing" id="channels">
+
+				<div class="theme-title-one">
+					<h2 class="mb-4">OUR CHANNELS</h2>
+					<!-- <p class="newpara">Explore India’s diverse heritage, breaking news, and inspiring stories with our exclusive features</p> -->
+				</div>
+				<div class="top-features-slide">
+					<div class="item">
+						<div class="main-content" style="background:#fafafa;">
+							<img src="images/icon/c5-tamil.png" style="width: 100px; height: 100%; object-fit: contain;" alt="Tamil Icon">
+
+							<h4 class="new-head"><a href="https://www.youtube.com/@channel5tamil" target="_blank">Channel 5 Tamil</a></h4>
+							<p class="newpara">Focus on Tamil culture, entertainment, and news</p>
+							<div class="new-icon">
+								<a href="https://www.youtube.com/@channel5tamil">
+									<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4258 10.9897L23.0101 10.9897L23.0101 19.574" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9902 23.0107L22.8908 11.1101" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+								</a>
+							</div>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+					<div class="item">
+						<div class="main-content" style="background:#f6f6f6;">
+							<img src="images/icon/c5telugu.png" style="width: 100px; height: 100%; object-fit: contain;" alt="Tamil Icon">
+							<h4 class="new-head"><a href="https://www.youtube.com/@channel5telugu" target="_blank">Channel 5 Telugu</a></h4>
+							<p class="newpara">Telugu-specific content, including cultural programs and discussions</p>
+							<div class="new-icon">
+								<a href="https://www.youtube.com/@channel5telugu" target="_blank">
+									<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4258 10.9897L23.0101 10.9897L23.0101 19.574" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9902 23.0107L22.8908 11.1101" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+								</a>
+							</div>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+					<div class="item">
+						<div class="main-content" style="background:#efefef;">
+							<img src="images/icon/c5-india.png" style="width: 100px; height: 100%; object-fit: contain;" alt="Tamil Icon">
+							<h4 class="new-head"><a href="https://www.youtube.com/@channel5india" target="_blank">Channel 5 India</a></h4>
+							<p class="newpara">Broader topics like national news, current affairs, and Indian trends</p>
+							<div class="new-icon">
+								<a href="https://www.youtube.com/@channel5india" target="_blank">
+									<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4258 10.9897L23.0101 10.9897L23.0101 19.574" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9902 23.0107L22.8908 11.1101" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+								</a>
+							</div>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+					<div class="item">
+						<div class="main-content" style="background:#e9e9e9;">
+							<img src="images/icon/c5-bakthi.png" style="width: 100px; height: 100%; object-fit: contain;" alt="Tamil Icon">
+							<h4 class="new-head"><a href="https://www.youtube.com/@Channel5Bhakti" target="_blank">Channel 5 Bhakti</a></h4>
+							<br/>
+							<p class="newpara">Spiritual and devotional content</p>
+							<div class="new-icon">
+								<a href="https://www.youtube.com/@Channel5Bhakti" target="_blank">
+									<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4258 10.9897L23.0101 10.9897L23.0101 19.574" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9902 23.0107L22.8908 11.1101" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+								</a>
+							</div>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+					
+					<div class="item">
+						<div class="main-content" style="background:#f6f6f6;">
+							<img src="images/icon/c5-cinema.png" style="width: 100px; height: 100%; object-fit: contain;" alt="Tamil Icon">
+							<h4 class="new-head"><a href="https://www.youtube.com/@Channel5Cinema" target="_blank">Channel 5 Cinema</a></h4>
+							
+							<p class="newpara">Cinema-centric updates, reviews, and trailers</p>
+							<div class="new-icon">
+								<a href="https://www.youtube.com/@Channel5Cinema" target="_blank">
+									<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4258 10.9897L23.0101 10.9897L23.0101 19.574" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9902 23.0107L22.8908 11.1101" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+								</a>
+							</div>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+					
+					
+					<div class="item">
+						<div class="main-content" style="background:#efefef;">
+							<img src="images/icon/c5-news.png" style="width: 100px; height: 100%; object-fit: contain;" alt="Tamil Icon">
+							<h4 class="new-head"><a href="https://www.youtube.com/@Channel5NewsTamil" target="_blank">Channel 5 News</a></h4>
+							<br/>
+							<p class="newpara">Breaking news and in-depth analysis</p>
+							<div class="new-icon">
+								<a href="https://www.youtube.com/@Channel5NewsTamil" target="_blank">
+									<svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M14.4258 10.9897L23.0101 10.9897L23.0101 19.574" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path><path d="M10.9902 23.0107L22.8908 11.1101" stroke="#0A0624" stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+								</a>
+							</div>
+						</div> <!-- /.main-content -->
+					</div> <!-- /.item -->
+				</div> <!-- /.top-features-slide -->
+			</div> <!-- /.top-feature -->
+
+			
+			
+
+
+			<!-- 
+			=============================================
+				Our Solution
+			============================================== 
+			-->
+		
+
+		
+			
+			<div class="service-style-one section-spacing" id="featuredcontent">
+				<div class="container">
+					<div class="theme-title-one">
+						<h2>POPULAR PLAYLISTS</h2>
+						<p class="newpara">Explore India’s diverse heritage, breaking news,<br/> and inspiring stories with our exclusive features</p>
+					</div>
+					<!-- Tabs -->
+					<ul class="nav nav-tabs mt-4 mb-4" id="caseTabs" role="tablist">
+						<li class="nav-item" style="margin-top: 10px; font-size: 14px;">
+							<button class="nav-link active" id="all-tab" data-bs-toggle="tab" data-bs-target="#all" type="button" role="tab" aria-controls="all" aria-selected="true">All</button>
+						</li>
+						
+						
+						<li class="nav-item" style="margin-top: 10px; font-size: 14px;">
+							<button class="nav-link" id="channel5tamil-tab" data-bs-toggle="tab" data-bs-target="#channel5tamil" type="button" role="tab" aria-controls="channel5tamil" aria-selected="false">Channel 5 Tamil</button>
+						</li>
+						<li class="nav-item" style="margin-top: 10px; font-size: 14px;">
+							<button class="nav-link" id="channel5telugu-tab" data-bs-toggle="tab" data-bs-target="#channel5telugu" type="button" role="tab" aria-controls="channel5telugu" aria-selected="false">Channel 5 Telugu</button>
+						</li>
+
+						<li class="nav-item" style="margin-top: 10px; font-size: 14px;">
+							<button class="nav-link" id="channel5news-tab" data-bs-toggle="tab" data-bs-target="#channel5news" type="button" role="tab" aria-controls="channel5news" aria-selected="false">Channel 5 News</button>
+						</li>
+
+						<li class="nav-item" style="margin-top: 10px; font-size: 14px;">
+							<button class="nav-link" id="channel5india-tab" data-bs-toggle="tab" data-bs-target="#channel5india" type="button" role="tab" aria-controls="channel5india" aria-selected="false">Channel 5 India</button>
+						</li>
+
+						<li class="nav-item" style="margin-top: 10px; font-size: 14px;">
+							<button class="nav-link" id="channel5cinema-tab" data-bs-toggle="tab" data-bs-target="#channel5cinema" type="button" role="tab" aria-controls="channel5cinema" aria-selected="false">Channel 5 Cinema</button>
+						</li>
+
+						<li class="nav-item" style="margin-top: 10px; font-size: 14px;">
+							<button class="nav-link" id="channel5bhakti-tab" data-bs-toggle="tab" data-bs-target="#channel5bhakti" type="button" role="tab" aria-controls="channel5bhakti" aria-selected="false">Channel 5 Bhakti</button>
+						</li>
+					</ul>
+					<div class="tab-content" id="caseTabsContent">
+						<!-- All Tab -->
+						<div class="tab-pane fade show active" id="all" role="tabpanel" aria-labelledby="all-tab">
+							<div class="wrapper">
+								<div class="row">
+
+
+
+
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/News.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEhp3eniCRf18zm5FS6a5Cs" target="_blank">News | Top Stories
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEhp3eniCRf18zm5FS6a5Cs" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/News.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfGH5Ky51GaH6HaKt8yoRFnT" target="_blank">News | Headlines
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfGH5Ky51GaH6HaKt8yoRFnT" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/News.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEZ1eSo1JS6gsdXx8YdTNwG" target="_blank">News | Shorts												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEZ1eSo1JS6gsdXx8YdTNwG" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/voice.png"  height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfE9645Gp2LH99ov17F0ihAp" target="_blank">Voices | Press Meet & Speeches</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfE9645Gp2LH99ov17F0ihAp" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfH_A_dghYE3-_pEJx3KMdHP" target="_blank">Talk Show | Kelvi Adhigaram</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfH_A_dghYE3-_pEJx3KMdHP" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEN8btMz318_fDxfoinWR7G" target="_blank">Talk Show | Kelvi Adhigaram | Shorts
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEN8btMz318_fDxfoinWR7G" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfHfOlZ80Jy2ZYZiX99QMKfq" target="_blank">Voices | மக்கள் கருத்து | People Opinion											</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfHfOlZ80Jy2ZYZiX99QMKfq" class="read-more" target="_blank">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+
+
+
+									<!-- Channel5India -->
+
+
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l0m63G4H9p7Sog7JifS63RP" target="_blank">Talk Show | Talk 2 Sridhar
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l0m63G4H9p7Sog7JifS63RP" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l2NfGaxXMVo997aYtt-Uvlc" target="_blank">Opinion | Opinion Matters</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l2NfGaxXMVo997aYtt-Uvlc" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l2qEiouc-ldXfm3Sa0_ghIs" target="_blank">Talk Show | Incredible Achievers
+</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l2qEiouc-ldXfm3Sa0_ghIs" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png"  height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l20LwI7scyMFkryaD3DdRaz" target="_blank">Guest Corner | Shekhar Iyer</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l20LwI7scyMFkryaD3DdRaz" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l1yiraHbxNSlPIKAj3GwiLi" target="_blank">Guest Corner | Delhi Rajagopalan
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l1yiraHbxNSlPIKAj3GwiLi" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l01rXDEeGyBnjJOABwTciPx" target="_blank">Talk Show | Talk 2 Sridhar | Shorts
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l01rXDEeGyBnjJOABwTciPx" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/News.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l3oWUqErQ8FNM2-wmIq2rZt" target="_blank">News | Shorts
+
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l3oWUqErQ8FNM2-wmIq2rZt" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+
+
+
+									<!-- Channel5Telugu -->
+
+									
+										<div class="col-xl-4 col-md-6 col-12">
+											<div class="single-service">
+												<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+												<div class="text">
+													<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLxsRr24gRm49VBDPwZu8l3cPsikS949jL" target="_blank">Talk Show | చరిత తో కాసేపు
+													</a></h5>
+													<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 TELUGU</p>
+													<a href="https://www.youtube.com/playlist?list=PLxsRr24gRm49VBDPwZu8l3cPsikS949jL" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+												</div> <!-- /.text -->
+											</div> <!-- /.single-service -->
+										</div> <!-- /.col- -->
+										
+										
+									
+
+
+
+
+									
+								</div> <!-- /.row -->
+							</div> <!-- /.wrapper -->
+						</div>
+						
+						
+						<!-- Channel5Tamil Tab -->
+						<div class="tab-pane fade" id="channel5tamil" role="tabpanel" aria-labelledby="channel5tamil-tab">
+							<div class="wrapper">
+								<div class="row">
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLeDoNtYNWprOwpF5zte9hVGsFSw_RSXJY" target="_blank">Guest Corner | Prakash M Swamy
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 TAMIL</p>
+												<a href="https://www.youtube.com/playlist?list=PLeDoNtYNWprOwpF5zte9hVGsFSw_RSXJY" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLeDoNtYNWprPueSOMhpRPPPZstuBRVeJs" target="_blank">Talk Show | Political Pulse
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 TAMIL</p>
+												<a href="https://www.youtube.com/playlist?list=PLeDoNtYNWprPueSOMhpRPPPZstuBRVeJs" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLeDoNtYNWprNu3DTLcXuCH1EmWrJ5e1gz" target="_blank">Guest Corner | Chinnappa Ganesan							</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 TAMIL</p>
+												<a href="https://www.youtube.com/playlist?list=PLeDoNtYNWprNu3DTLcXuCH1EmWrJ5e1gz" target="_blank" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png"  height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="service-details.html">Travel and Aviation</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 TAMIL</p>
+												<a href="service-details.html" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="service-details.html">Software Research</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 TAMIL</p>
+												<a href="service-details.html" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="service-details.html">Quality Resourcing</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 TAMIL</p>
+												<a href="service-details.html" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+								</div> <!-- /.row -->
+							</div> <!-- /.wrapper -->
+						</div>
+						<!-- Channel5Telugu Tab -->
+						<div class="tab-pane fade" id="channel5telugu" role="tabpanel" aria-labelledby="channel5telugu-tab">
+							<div class="wrapper">
+								<div class="row">
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLxsRr24gRm49VBDPwZu8l3cPsikS949jL">Talk Show | చరిత తో కాసేపు
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 TELUGU</p>
+												<a href="https://www.youtube.com/playlist?list=PLxsRr24gRm49VBDPwZu8l3cPsikS949jL" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									
+									
+								</div> <!-- /.row -->
+							</div> <!-- /.wrapper -->
+						</div>
+
+
+
+						<!-- Latest Tab -->
+						<div class="tab-pane fade" id="channel5news" role="tabpanel" aria-labelledby="channel5news-tab">
+							<div class="wrapper">
+								<div class="row">
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/News.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEhp3eniCRf18zm5FS6a5Cs">News | Top Stories
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEhp3eniCRf18zm5FS6a5Cs" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/News.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfGH5Ky51GaH6HaKt8yoRFnT">News | Headlines
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfGH5Ky51GaH6HaKt8yoRFnT" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/News.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEZ1eSo1JS6gsdXx8YdTNwG">News | Shorts												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEZ1eSo1JS6gsdXx8YdTNwG" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png"  height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfE9645Gp2LH99ov17F0ihAp">Voices | Press Meet & Speeches</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfE9645Gp2LH99ov17F0ihAp" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfH_A_dghYE3-_pEJx3KMdHP">Talk Show | Kelvi Adhigaram</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfH_A_dghYE3-_pEJx3KMdHP" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEN8btMz318_fDxfoinWR7G">Talk Show | Kelvi Adhigaram | Shorts
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfEN8btMz318_fDxfoinWR7G" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfHfOlZ80Jy2ZYZiX99QMKfq">Voices | மக்கள் கருத்து | People Opinion											</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 NEWS</p>
+												<a href="https://www.youtube.com/playlist?list=PLvt3I11wLrfHfOlZ80Jy2ZYZiX99QMKfq" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+								</div> <!-- /.row -->
+							</div> <!-- /.wrapper -->
+						</div>
+
+
+
+						<!-- Trending Tab -->
+						<div class="tab-pane fade" id="channel5india" role="tabpanel" aria-labelledby="channel5india-tab">
+							<div class="wrapper">
+								<div class="row">
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l0m63G4H9p7Sog7JifS63RP">Talk Show | Talk 2 Sridhar
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l0m63G4H9p7Sog7JifS63RP" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l2qEiouc-ldXfm3Sa0_ghIs">Talk Show | Incredible Achievers
+</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l2qEiouc-ldXfm3Sa0_ghIs" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l2NfGaxXMVo997aYtt-Uvlc">Opinion | Opinion Matters</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l2NfGaxXMVo997aYtt-Uvlc" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png"  height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l20LwI7scyMFkryaD3DdRaz">Guest Corner | Shekhar Iyer</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l20LwI7scyMFkryaD3DdRaz" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l1yiraHbxNSlPIKAj3GwiLi">Guest Corner | Delhi Rajagopalan
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l1yiraHbxNSlPIKAj3GwiLi" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/talkshow.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l01rXDEeGyBnjJOABwTciPx">Talk Show | Talk 2 Sridhar | Shorts
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l01rXDEeGyBnjJOABwTciPx" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+
+									<div class="col-xl-4 col-md-6 col-12">
+										<div class="single-service">
+											<div class="img-box"><img src="images/home/News.png" height="100%"  alt=""></div>
+											<div class="text">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l3oWUqErQ8FNM2-wmIq2rZt">News | Shorts
+
+												</a></h5>
+												<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 INDIA</p>
+												<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l3oWUqErQ8FNM2-wmIq2rZt" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+											</div> <!-- /.text -->
+										</div> <!-- /.single-service -->
+									</div> <!-- /.col- -->
+								</div> <!-- /.row -->
+							</div> <!-- /.wrapper -->
+						</div>
+
+
+<!-- Channel5cinema -->
+
+
+
+<div class="tab-pane fade" id="channel5cinema" role="tabpanel" aria-labelledby="channel5cinema-tab">
+	<div class="wrapper">
+		<div class="row">
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/6.png" height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PL5frlCtWiaZku8I5ep1rYTr5jwrSeE8ZO">Cinema Interview
+
+						</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 CINEMA</p>
+						<a href="https://www.youtube.com/playlist?list=PLi8J_PeF57l0m63G4H9p7Sog7JifS63RP" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/talkshow.png" height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PL5frlCtWiaZl6cSKzZ5d3Djx1GbZOBi5x">Cinema Ciruvargal
+</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 CINEMA</p>
+						<a href="https://www.youtube.com/playlist?list=PL5frlCtWiaZl6cSKzZ5d3Djx1GbZOBi5x" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/pressmeet.png" height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PL5frlCtWiaZn_NkuQw4CAxE64Xn-ksotJ">Movie | Press Meet</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 CINEMA</p>
+						<a href="https://www.youtube.com/playlist?list=PL5frlCtWiaZn_NkuQw4CAxE64Xn-ksotJ" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/movie-review.png"  height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PL5frlCtWiaZmjQ3Dvk39zEj37Gd7Hq0rq">Movie Review</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 CINEMA</p>
+						<a href="https://www.youtube.com/playlist?list=PL5frlCtWiaZmjQ3Dvk39zEj37Gd7Hq0rq" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+			
+		</div> <!-- /.row -->
+	</div> <!-- /.wrapper -->
+</div>
+
+
+
+
+<!-- Channel5bhakti -->
+
+
+
+<div class="tab-pane fade" id="channel5bhakti" role="tabpanel" aria-labelledby="channel5bhakti-tab">
+	<div class="wrapper">
+		<div class="row">
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/Bhakti.png" height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiuj4U3-dW1zptxuTo3JI1p7q">Devotion | முக்தி தரும் பக்தி | Devakottai Ramanathan
+
+						</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 BHAKTI</p>
+						<a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiuj4U3-dW1zptxuTo3JI1p7q" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/Bhakti.png" height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiugcD2Zh9Cy5_dNK4f9i58Ve">திருமாலின் பெருமை என்ன? | Perumal Perumai | Yogaragav
+
+</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 BHAKTI</p>
+						<a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiugcD2Zh9Cy5_dNK4f9i58Ve" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+
+
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/Bhakti.png" height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiugIs3W11m8N1Mgcfa6ch_GI">Devotion | Thiruvasagam | Sivaguru Siva Damodaran Ayya
+
+						</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 BHAKTI</p>
+						<a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiugIs3W11m8N1Mgcfa6ch_GI" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/Bhakti.png" height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiuggDRv7RTPCKAPdt8tf3ntV">Temples | Spiritual Journey | ஆன்மிக பயணம்
+						</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 BHAKTI</p>
+						<a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiuggDRv7RTPCKAPdt8tf3ntV" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/Bhakti.png"  height="100%" alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiujEKIe5iEyuhZpgG4yYGZ9V">Temples | Online Pilgrimage | திரை யாத்திரை
+						</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 BHAKTI</p>
+						<a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiujEKIe5iEyuhZpgG4yYGZ9V" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+
+
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/Bhakti.png" height="100%"  alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiugRA2iCIWUAW1U0n6bG86wd">Astrology | Horoscopes | ராசிபலன்கள்
+
+						</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 BHAKTI</p>
+						<a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiugRA2iCIWUAW1U0n6bG86wd" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+			
+			<div class="col-xl-4 col-md-6 col-12">
+				<div class="single-service">
+					<div class="img-box"><img src="images/home/Bhakti.png" height="100%"  alt=""></div>
+					<div class="text">
+						<h5 class="custom-h5"><a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiui4wyNubZL5aOrypIwPwIie">Bhakti | News & Events
+
+						</a></h5>
+						<p style="font-size: 14px; padding-top: 1px;">CHANNEL 5 BHAKTI</p>
+						<a href="https://www.youtube.com/playlist?list=PLVBqaXJqpiui4wyNubZL5aOrypIwPwIie" class="read-more">VIEW MORE <i class="fa fa-angle-right" aria-hidden="true"></i></a>
+					</div> <!-- /.text -->
+				</div> <!-- /.single-service -->
+			</div> <!-- /.col- -->
+
+			
+		</div> <!-- /.row -->
+	</div> <!-- /.wrapper -->
+</div>
+
+
+
+					</div>
+				</div>
+			</div>
+			
+
+
+
+			<!-- 
+			=============================================
+				Our Case
+			============================================== 
+			-->
+			<div class="our-case section-spacing">
+				<div class="container">
+					<div class="theme-title-one">
+						<h2>Highlights</h2>
+						<p class="newpara">Discover the latest trending stories and cultural highlights from Tamil Nadu in this must-watch video!</p>
+					</div> <!-- /.theme-title-one -->
+					<div class="wrapper">
+						<div class="row">
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-case-block">
+									<img src="images/portfolio/brnews.png" alt="">
+									<div class="hover-content">
+										<div class="text clearfix">
+											<div class="float-left">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/@Channel5NewsTamil">Breaking News</a></h5>
+												<p>Stay updated with the latest breaking news and urgent updates from around the world												</p>
+											</div>
+											<a href="https://www.youtube.com/@Channel5NewsTamil" class="details float-right"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div> <!-- /.text -->
+									</div> <!-- /.hover-content -->
+								</div> <!-- /.single-case-block -->
+							</div> <!-- /.col- -->
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-case-block">
+									<img src="images/portfolio/cr-1.png" alt="">
+									<div class="hover-content">
+										<div class="text clearfix">
+											<div class="float-left">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/@channel5telugu">Cover Story</a></h5>
+												<p>Dive deep into compelling narratives and exclusive insights with our featured cover story
+
+												</p>
+											</div>
+											<a href="https://www.youtube.com/@channel5telugu" class="details float-right"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div> <!-- /.text -->
+									</div> <!-- /.hover-content -->
+								</div> <!-- /.single-case-block -->
+							</div> <!-- /.col- -->
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-case-block">
+									<img src="images/portfolio/tn-1.png" alt="">
+									<div class="hover-content">
+										<div class="text clearfix">
+											<div class="float-left">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/@channel5tamil">Tech News</a></h5>
+												<p>Explore the latest innovations, breakthroughs, and trends shaping the world of technology</p>
+											</div>
+											<a href="https://www.youtube.com/@channel5tamil" class="details float-right"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div> <!-- /.text -->
+									</div> <!-- /.hover-content -->
+								</div> <!-- /.single-case-block -->
+							</div> <!-- /.col- -->
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-case-block">
+									<img src="images/portfolio/pl-1.png" alt="">
+									<div class="hover-content">
+										<div class="text clearfix">
+											<div class="float-left">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/@channel5india">Political Update</a></h5>
+												<p>Get the latest on political developments, policies, and power shifts shaping the world												</p>
+											</div>
+											<a href="https://www.youtube.com/@channel5india" class="details float-right"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div> <!-- /.text -->
+									</div> <!-- /.hover-content -->
+								</div> <!-- /.single-case-block -->
+							</div> <!-- /.col- -->
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-case-block">
+									<img src="images/portfolio/cn-1.png" alt="">
+									<div class="hover-content">
+										<div class="text clearfix">
+											<div class="float-left">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/@Channel5Cinema">Cinema Update</a></h5>
+												<p>Stay tuned for the latest movie news, reviews, and cinematic highlights
+												</p>
+											</div>
+											<a href="https://www.youtube.com/@Channel5Cinema" class="details float-right"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div> <!-- /.text -->
+									</div> <!-- /.hover-content -->
+								</div> <!-- /.single-case-block -->
+							</div> <!-- /.col- -->
+							<div class="col-lg-4 col-sm-6 col-12">
+								<div class="single-case-block">
+									<img src="images/portfolio/dv-1.png" alt="">
+									<div class="hover-content">
+										<div class="text clearfix">
+											<div class="float-left">
+												<h5 class="custom-h5"><a href="https://www.youtube.com/@Channel5Bhakti">Devotional News</a></h5>
+												<p>Discover spiritual insights, rituals, and updates from the world of devotion												</p>
+											</div>
+											<a href="https://www.youtube.com/@Channel5Bhakti" class="details float-right"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+										</div> <!-- /.text -->
+									</div> <!-- /.hover-content -->
+								</div> <!-- /.single-case-block -->
+							</div> <!-- /.col- -->
+						</div> <!-- /.row -->
+					</div> <!-- /.wrapper -->
+					<!-- <div class="view-all"><a href="project.html" class="theme-button-one">VIEW ALL</a></div> -->
+				</div> <!-- /.container -->
+			</div> <!-- /.our-case -->
+
+
+
+			
+
+
+
+			<!-- 
+			=============================================
+				Service Style One
+			============================================== 
+			-->
+			
+
+
+
+
+
+
+
+			
+
+
+
+			
+
+			
+
+<!-- 			
+			=====================================================
+				Short Banner
+			=====================================================
+			-->
+			<!-- <div class="short-banner section-spacing">
+				<div class="overlay">
+					<div class="container">
+						<h2>Our business plan consultants have real world experience</h2>
+					</div>
+				</div> 
+			</div>  -->
+
+
+			
+
+
+<!--
+			=====================================================
+				Our Team
+			=====================================================
+			-->
+			<div class="our-team section-spacing">
+				<div class="container">
+					<div class="theme-title-one">
+						<h2>Our TEAM</h2>
+						<p class="newpara">Our journalists are committed storytellers, dedicated to delivering accurate, impactful,<br/> and timely news while upholding the highest standards of integrity and transparency</p>
+					</div> <!-- /.theme-title-one -->
+					<div class="wrapper">
+						<div class="row">
+							<div class="col-lg-3 col-sm-6 col-12">
+								<div class="team-member">
+									<div class="image-box">
+										<img src="images/team/1.jpg" alt="">
+										<div class="overlay">
+											<div class="hover-content">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+												<p>The government they survive as soldiers of fortune.</p>
+											</div> <!-- /.hover-content -->
+										</div> <!-- /.overlay -->
+									</div> <!-- /.image-box -->
+									<div class="text">
+										<h6>Sridhar Paladugu</h6>
+										<span>CEO</span>
+									</div> <!-- /.text -->
+								</div> <!-- /.team-member -->
+							</div> <!-- /.col- -->
+							<div class="col-lg-3 col-sm-6 col-12">
+								<div class="team-member">
+									<div class="image-box">
+										<img src="images/team/2.jpg" alt="">
+										<div class="overlay">
+											<div class="hover-content">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+												<p>The government they survive as soldiers of fortune.</p>
+											</div> <!-- /.hover-content -->
+										</div> <!-- /.overlay -->
+									</div> <!-- /.image-box -->
+									<div class="text">
+										<h6>Haridas</h6>
+										<span>COO</span>
+									</div> <!-- /.text -->
+								</div> <!-- /.team-member -->
+							</div> <!-- /.col- -->
+							<div class="col-lg-3 col-sm-6 col-12">
+								<div class="team-member">
+									<div class="image-box">
+										<img src="images/team/1.jpg" alt="">
+										<div class="overlay">
+											<div class="hover-content">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+												<p>The government they survive as soldiers of fortune.</p>
+											</div> <!-- /.hover-content -->
+										</div> <!-- /.overlay -->
+									</div> <!-- /.image-box -->
+									<div class="text">
+										<h6>Jaya Kumar										</h6>
+										<span>CCO</span>
+									</div> <!-- /.text -->
+								</div> <!-- /.team-member -->
+							</div> <!-- /.col- -->
+							<div class="col-lg-3 col-sm-6 col-12">
+								<div class="team-member">
+									<div class="image-box">
+										<img src="images/team/4.jpg" alt="">
+										<div class="overlay">
+											<div class="hover-content">
+												<ul>
+													<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+													<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+												</ul>
+												<p>The government they survive as soldiers of fortune.</p>
+											</div> <!-- /.hover-content -->
+										</div> <!-- /.overlay -->
+									</div> <!-- /.image-box -->
+									<div class="text">
+										<h6>Hari</h6>
+										<span>SEO & Web content Specialist</span>
+									</div> <!-- /.text -->
+								</div> <!-- /.team-member -->
+							</div> <!-- /.col- -->
+						</div> <!-- /.row -->
+					</div> <!-- /.wrapper -->
+				</div> <!-- /.container -->
+			</div> <!-- /.our-team -->
+
+
+
+
+
+						<!--
+			=====================================================
+				Free Consultation
+			=====================================================
+			-->
+			<div class="consultation-form section-spacing" id="contactus">
+				<div class="container">
+					<div class="theme-title-one">
+						<h2>CONTACT US</h2>
+						<p class="newpara">Feel free to reach out to us with any questions,<br/> feedback, or inquiries – we're here to help!</p>
+					</div> <!-- /.theme-title-one -->
+					<div class="clearfix main-content no-gutters row">
+						<div class="col-xl-6 col-lg-5 col-12"><div class="img-box"></div></div>
+						<div class="col-xl-6 col-lg-7 col-12">
+							<div class="form-wrapper">
+								<form action="#" class="theme-form-one">
+									<!-- <h5 class="mb-4">For Enquiries</h5> -->
+									<div class="row">
+										<div class="col-md-6"><input type="text" placeholder="Name *"></div>
+										<div class="col-md-6"><input type="text" placeholder="Phone *"></div>
+										<div class="col-md-6"><input type="email" placeholder="Email *"></div>
+										<div class="col-md-6">
+											<select class="form-control" id="exampleSelect1">
+												
+											  <option>General Enquiry</option>	
+										      <option>For Compliant Raise</option>
+										      <option>For Advertisement Booking</option>
+										      <!-- <option>Consumer Product</option>
+										      <option>Financial Services</option>
+										      <option>Software Research</option> -->
+										    </select>
+										</div>
+										<div class="col-12"><textarea placeholder="Message"></textarea></div>
+									</div> <!-- /.row -->
+									<button class="theme-button-one wow fadeInUp animated">GET QUOTES</button>
+								</form>
+							</div> <!-- /.form-wrapper -->
+						</div> <!-- /.col- -->
+					</div> <!-- /.main-content -->
+				</div> <!-- /.container -->
+			</div> <!-- /.consultation-form -->
+
+
+
+
+
+			<!--
+			=====================================================
+				Google Map
+			=====================================================
+			-->
+			<!-- Google Map -->
+			<div class="google-map-one" >
+				<div class="map-canvas"></div>
+			</div>
+			
+
+			<!--
+			=====================================================
+				Footer
+			=====================================================
+			-->
+			
+			<footer class="theme-footer-two">
+				<div class="top-footer">
+					<div class="container">
+						<div class="row">
+							<div class="col-lg-4 col-sm-6 col-12 logo-widget">
+								<div class="logo"><a href="index.html"><img src="images/logo/c5media_sample.png" style="height: 100%; width: 70px;" alt=""></a></div>
+								<p class="newpara">
+									We are a neutral and inclusive media outlet that champions diverse viewpoints in governance and public affairs. Dedicated to amplifying the voiceless, our skilled journalists offer thorough, captivating coverage in today's rapid-moving environment.
+								</p>
+								<ul class="social-icon">
+									<li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+									<li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+								</ul>
+							</div> <!-- /.logo-widget -->
+							<div class="col-lg-2 col-sm-6 col-12 footer-list">
+								<h6 class="title">EXPLORE</h6>
+								<ul>
+									<!-- <li><a href="about.html">About us</a></li>
+									<li><a href="service.html">Our Solutions</a></li> -->
+									<li><a href="#">Privacy Policy</a></li>
+									<li><a href="#">Terms of Service</a></li>
+									<li><a href="#">Careers</a></li>
+								</ul>
+							</div> <!-- /.footer-list -->
+							<!-- <div class="col-lg-3 col-sm-6 col-12 footer-gallery">
+								<h6 class="title">Gallery</h6>
+								<div class="wrapper">
+									<div class="row">
+										<div class="col-4">
+											<a href="#" data-fancybox="gallery" data-caption="Caption for single image" class="fancybox"><img src="images/portfolio/7.jpg" alt=""></a>
+										</div>
+										<div class="col-4">
+											<a href="#" data-fancybox="gallery" data-caption="Caption for single image" class="fancybox"><img src="images/portfolio/8.jpg" alt=""></a>
+										</div>
+										<div class="col-4">
+											<a href="#" data-fancybox="gallery" data-caption="Caption for single image" class="fancybox"><img src="images/portfolio/9.jpg" alt=""></a>
+										</div>
+										<div class="col-4">
+											<a href="#" data-fancybox="gallery" data-caption="Caption for single image" class="fancybox"><img src="images/portfolio/10.jpg" alt=""></a>
+										</div>
+										<div class="col-4">
+											<a href="#" data-fancybox="gallery" data-caption="Caption for single image" class="fancybox"><img src="images/portfolio/11.jpg" alt=""></a>
+										</div>
+										<div class="col-4">
+											<a href="#" data-fancybox="gallery" data-caption="Caption for single image" class="fancybox"><img src="images/portfolio/12.jpg" alt=""></a>
+										</div>
+									</div>
+								</div>
+							</div> -->
+							
+							<div class="col-lg-3 col-sm-6 col-12 contact-widget">
+								<h6 class="title">CONTACT</h6>
+								<ul>
+									<li>
+										<i class="flaticon-direction-signs"></i>
+										Ashok Nagar, Chennai.
+									</li>
+									<li>
+										<i class="flaticon-multimedia-1"></i>
+										<a href="#">info@ch5media.com</a>
+									</li>
+									<li>
+										<i class="fa fa-phone" aria-hidden="true"></i>
+										<a href="#">(+2) 345  9808  000</a>
+									</li>
+								</ul>
+							</div> <!-- /.contact-widget -->
+						</div> <!-- /.row -->
+					</div> <!-- /.container -->
+				</div> <!-- /.top-footer -->
+				<div class="bottom-footer">
+					<div class="container">
+						<p>Copyrights &copy; Channel 5 Media 2024. All Rights Reserved.</p>
+					</div>
+				</div> <!-- /.bottom-footer -->
+			</footer> <!-- /.theme-footer-two -->
+			
+
+	        
+
+	        <!-- Scroll Top Button -->
+			<button class="scroll-top tran3s">
+				<i class="fa fa-angle-up" aria-hidden="true"></i>
+			</button>
+			
+
+
+		<!-- Optional JavaScript _____________________________  -->
+
+    	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    	<!-- jQuery -->
+		<script src="vendor/jquery.2.2.3.min.js"></script>
+		<!-- Popper js -->
+		<script src="vendor/popper.js/popper.min.js"></script>
+		<!-- Bootstrap JS -->
+		<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+		<!-- Camera Slider -->
+		<script src='vendor/Camera-master/scripts/jquery.mobile.customized.min.js'></script>
+	    <script src='vendor/Camera-master/scripts/jquery.easing.1.3.js'></script> 
+	    <script src='vendor/Camera-master/scripts/camera.min.js'></script>
+	    <!-- menu  -->
+		<script src="vendor/menu/src/js/jquery.slimmenu.js"></script>
+		<!-- WOW js -->
+		<script src="vendor/WOW-master/dist/wow.min.js"></script>
+		<!-- owl.carousel -->
+		<script src="vendor/owl-carousel/owl.carousel.min.js"></script>
+		<!-- js count to -->
+		<script src="vendor/jquery.appear.js"></script>
+		<script src="vendor/jquery.countTo.js"></script>
+		<!-- Fancybox -->
+		<script src="vendor/fancybox/dist/jquery.fancybox.min.js"></script>
+		<!-- Language Stitcher -->
+		<script src="vendor/language-switcher/jquery.polyglot.language.switcher.js"></script>
+		<!-- Google map js -->
+		<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCjQLCCbRKFhsr8BY78g2PQ0_bTyrm_YXU"></script>
+		<script src="vendor/sanzzy-map/dist/snazzy-info-window.min.js"></script>
+
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+
+		<!-- Theme js -->
+		<script src="js/theme.js"></script>
+		<script src="js/map-script.js"></script>
+
+		<script>
+
+
+			// Initialize Bootstrap Tabs if not already loaded
+document.querySelectorAll('.nav-link').forEach(tab => {
+    tab.addEventListener('click', () => {
+        const targetId = tab.getAttribute('data-bs-target');
+        document.querySelectorAll('.tab-pane').forEach(pane => {
+            pane.classList.remove('show', 'active');
+        });
+        document.querySelector(targetId).classList.add('show', 'active');
+    });
+});
+
+		</script>
+		</div> <!-- /.main-page-wrapper -->
+	</body>
+</html>
